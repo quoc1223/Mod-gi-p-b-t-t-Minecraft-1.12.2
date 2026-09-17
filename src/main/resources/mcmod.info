@@ -1,0 +1,16 @@
+[
+{
+  "modid": "immortalarmor",
+  "name": "Immortal Armor",
+  "description": "Mod giap bat tu khang ky sinh trung.",
+  "version": "1.0.0",
+  "mcversion": "1.12.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["quoc1223"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
