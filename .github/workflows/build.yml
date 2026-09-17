@@ -17,10 +17,11 @@ jobs:
         java-version: '8'
         distribution: 'temurin'
 
-    - name: Build Mod
-      run: |
-        chmod +x gradlew
-        ./gradlew build --no-daemon
+    - name: Setup Gradle
+      uses: gradle/actions/setup-gradle@v3
+
+    - name: Build Mod with Gradle Command
+      run: gradle build --no-daemon
 
     - name: Upload Mod Jar
       uses: actions/upload-artifact@v3
